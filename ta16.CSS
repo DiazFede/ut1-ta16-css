@@ -1,0 +1,52 @@
+/* Estilos por defecto para pantallas grandes (1440px o más) */
+body {
+    background-color: red;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    text-align: center;
+    margin-top: 20px;
+}
+
+img {
+    width: 50%;
+}
+
+p {
+    font-size: 24px;
+}
+
+/* Media Query para pantallas medianas (768px) */
+@media (max-width: 768px) {
+    body {
+        background-color: green;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    img {
+        width: 70%;
+    }
+}
+
+/* Media Query para pantallas pequeñas (425px) */
+@media (max-width: 425px) {
+    body {
+        background-color: blue;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    img {
+        width: 100%;
+    }
+}
